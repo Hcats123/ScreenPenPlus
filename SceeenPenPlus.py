@@ -587,7 +587,7 @@ class GetMouseInput(QWidget):
         self.setWindowTitle("SPP-GMI")
         self.setMouseTracking(True)
         self.setWindowFlags(Qt.WindowType.Window|Qt.WindowType.WindowCloseButtonHint|Qt.WindowType.FramelessWindowHint)
-        self.setWindowOpacity(0.71)
+        self.setWindowOpacity(0.01)
     def hideWin(self):
         self.isfullscreen=False
         self.canvas.hide_hover()
